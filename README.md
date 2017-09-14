@@ -4,7 +4,7 @@ https://javascript30.com/
 
 Just trying to build one tutorial at each time.
 
-- [ ] [Challenge-01 - JavaScript Drum Kit](#javascript-drum-kit)
+- [x] [Challenge-01 - JavaScript Drum Kit](#javascript-drum-kit)
 - [ ] [Challenge-02 - JS and CSS Clock](#js-and-css-clock)
 - [ ] [Challenge-03 - CSS Variables](#css-variables)
 - [ ] [Challenge-04 - Array Cardio Day 1](#array-cardio-day-1)
