@@ -58,7 +58,24 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
+function removeTransition(e) {
+  if (e.propertyName !== 'transform') return;
+  this.classList.remove('playing');
+}
 
+function playSoundAndAnimation(e) {
+  const audioEle = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  const keyEle = document.querySelector(`div[data-key="${e.keyCode}"]`);
+  if (!audioEle) return;
+
+  keyEle.classList.add('playing');
+  audioEle.currentTime = 0;
+  audioEle.play();
+}
+
+const keyEles = Array.from(document.querySelectorAll('.key'));
+keyEles.forEach(key => key.addEventListener('transitionend', removeTransition));
+window.addEventListener('keydown', playSoundAndAnimation);
 </script>
 
 
