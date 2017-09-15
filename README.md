@@ -5,7 +5,7 @@ https://javascript30.com/
 Just trying to build one tutorial at each time.
 
 - [x] [Challenge-01 - JavaScript Drum Kit][javascript-drum-kit]
-- [ ] [Challenge-02 - JS and CSS Clock](#js-and-css-clock)
+- [x] [Challenge-02 - JS and CSS Clock][js-and-css-clock]
 - [ ] [Challenge-03 - CSS Variables](#css-variables)
 - [ ] [Challenge-04 - Array Cardio Day 1](#array-cardio-day-1)
 - [ ] [Challenge-05 - Flex Panel Gallery](#flex-panel-gallery)
@@ -39,3 +39,4 @@ Just trying to build one tutorial at each time.
 [MIT](./LICENSE)
 
 [javascript-drum-kit]: https://heinlinaung.github.io/JavaScript30/Challenge-01%20-%20JavaScript%20Drum%20Kit/
+[js-and-css-clock]: https://heinlinaung.github.io/JavaScript30/Challenge-02%20JS%20and%20CSS%20Clock/
