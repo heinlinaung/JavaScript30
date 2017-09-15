@@ -37,7 +37,7 @@
     .clock {
       width: 30rem;
       height: 30rem;
-      border:20px solid white;
+      border:20px solid #333;
       border-radius:50%;
       margin:50px auto;
       position: relative;
@@ -88,6 +88,7 @@
     const secHandDiv = document.querySelector('.second-hand')
     const minHandDiv = document.querySelector('.minute-hand')
     const hrHandDiv = document.querySelector('.hour-hand')
+
     function setDateTime(){
       const now = new Date();
 
@@ -96,17 +97,15 @@
       const hr = now.getHours();
 
       // fix UI glitch on every 1 min
-      console.log('sec: ',sec)
       if(sec === 0){
-        console.log('0')
         togggleTransitionOfHands()
       }
       if(sec === 1){
-        console.log('1')
         togggleTransitionOfHands()
       }
 
-      const secDeg = ((sec / 60) * 360) + 90;
+      const secDeg = ((sec / 60 ) * 360) + 90;
+      console.log('secDeg: ',secDeg)
       secHandDiv.style.transform = `rotate(${secDeg}deg)`
 
       const minDeg = ((min / 60) * 360) + 90;
