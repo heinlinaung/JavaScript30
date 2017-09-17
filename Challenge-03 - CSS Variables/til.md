@@ -1,0 +1,10 @@
+Things I learned (key points).
+  - input type 'color'
+  - css :root 
+    - The :root pseudo-class represents an element that is the root of the document. In HTML, this is always the HTML element.
+  - More Info:
+    - CSS Variables
+      - https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables
+    - CSS variables vs preprocessor variables
+      - https://css-tricks.com/difference-between-types-of-css-variables/
+  - don't add ';' at the end of each CSS styles (after curly bracket).
