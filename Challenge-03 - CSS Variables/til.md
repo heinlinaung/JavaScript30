@@ -8,3 +8,6 @@ Things I learned (key points).
     - CSS variables vs preprocessor variables
       - https://css-tricks.com/difference-between-types-of-css-variables/
   - don't add ';' at the end of each CSS styles (after curly bracket).
+  - HTMLElement.dataset
+    - REF : https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
+  - CSS is cascade (means the closet one has the most priority.)
