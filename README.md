@@ -6,7 +6,7 @@ Just trying to build one tutorial at each time.
 
 - [x] [Challenge-01 - JavaScript Drum Kit][javascript-drum-kit]
 - [x] [Challenge-02 - JS and CSS Clock][js-and-css-clock]
-- [ ] [Challenge-03 - CSS Variables][css-variables]
+- [x] [Challenge-03 - CSS Variables][css-variables]
 - [ ] [Challenge-04 - Array Cardio Day 1](#array-cardio-day-1)
 - [ ] [Challenge-05 - Flex Panel Gallery](#flex-panel-gallery)
 - [ ] [Challenge-06 - Type Ahead](#type-ahead)
