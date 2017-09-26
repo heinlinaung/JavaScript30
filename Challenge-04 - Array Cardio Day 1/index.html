@@ -32,24 +32,32 @@
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
     const fifteenhundred = inventors.filter( i => { return (i.year >= 1500 && i.year <= 1600) } )
+    console.log('Task 1')
     console.table(fifteenhundred)
+    console.log('-------XxX-------')
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors' first and last names
     const firstnLast = inventors.map(a=>{ return `${a.first} ${a.last}` })
-    console.table(firstnLast)
+    console.log('Task 2')
+    console.info(firstnLast)
+    console.log('-------XxX-------')
 
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
     const sortedByBirthdate = inventors.sort((a,b)=>{ a.year > b.year? 1 : -1 })
+    console.log('Task 3')
     console.table(sortedByBirthdate)
+    console.log('-------XxX-------')
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live?
     const totalYears = inventors.reduce( ( year , i ) => {
-      return total + (i.passed - i.year);
+      return year + (i.passed - i.year);
     },0)
-    console.table(totalYears)
+    console.log('Task 4')
+    console.info(totalYears)
+    console.log('-------XxX-------')
 
     // 5. Sort the inventors by years lived
     const sortedByAge = inventors.sort( (a,b)=>{
@@ -57,16 +65,20 @@
       const nextPersonAge = b.passed - b.year;
       return firstPersonAge > nextPersonAge ? -1 : 1;
     })
+    console.log('Task 5')
     console.table(sortedByAge)
+    console.log('-------XxX-------')
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-    const category = document.querySelector('.mw-category');
-    const links = Array.from(category.querySelectorAll('a')); // could use [...xxx]
-    const deWords = links
-                    .map(l => {return l.textContent} )
-                    .filter(txt=> {return txt.includes('de')} )
-    console.table(deWords)
+    // const category = document.querySelector('.mw-category');
+    // const links = Array.from(category.querySelectorAll('a')); // could use [...xxx]
+    // const deWords = links
+    //                 .map(l => {return l.textContent} )
+    //                 .filter(txt=> {return txt.includes('de')} )
+    console.log('Task 6 is skipped.')
+    // console.table(deWords)
+    console.log('-------XxX-------')
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
@@ -75,7 +87,9 @@
       const [bLastName, bFirstName] = next.split(', ')
       return aLastName > bLastName ? 1 : -1;
     })
-    console.table(sortedByLastName)
+    console.log('Task 7')
+    console.info(sortedByLastName)
+    console.log('-------XxX-------')
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
@@ -84,6 +98,9 @@
       obj[item]? obj[item]++ : ( obj[item] = 0, obj[item]++ );
       return obj;
     },{})
+    console.log('Task 8')
+    console.info(gege)
+    console.log('-------XxX-------')
 
   </script>
 </body>
