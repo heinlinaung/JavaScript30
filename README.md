@@ -41,4 +41,4 @@ Just trying to build one tutorial at each time.
 [javascript-drum-kit]: https://heinlinaung.github.io/JavaScript30/Challenge-01%20-%20JavaScript%20Drum%20Kit/
 [js-and-css-clock]: https://heinlinaung.github.io/JavaScript30/Challenge-02%20JS%20and%20CSS%20Clock/
 [css-variables]: https://heinlinaung.github.io/JavaScript30/Challenge-03%20-%20CSS%20Variables
-[array-cardio-day-1]: https://heinlinaung.github.io/JavaScript30/Challenge-04%20Array%20Cardio%20Day%201
+[array-cardio-day-1]: https://heinlinaung.github.io/JavaScript30/Challenge-04%20-%20Array%20Cardio%20Day%201
