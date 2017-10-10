@@ -8,7 +8,7 @@ Just trying to build one tutorial at each time.
 - [x] [Challenge-02 - JS and CSS Clock][js-and-css-clock]
 - [x] [Challenge-03 - CSS Variables][css-variables]
 - [x] [Challenge-04 - Array Cardio Day 1][array-cardio-day-1]
-- [ ] [Challenge-05 - Flex Panel Gallery][flex-panel-gallery]
+- [x] [Challenge-05 - Flex Panel Gallery][flex-panel-gallery]
 - [ ] [Challenge-06 - Type Ahead](#type-ahead)
 - [ ] [Challenge-07 - Array Cardio Day 2](#array-cardio-day-2)
 - [ ] [Challenge-08 - Fun with HTML5 Canvas](#fun-with-html5-canvas)
@@ -42,4 +42,4 @@ Just trying to build one tutorial at each time.
 [js-and-css-clock]: https://heinlinaung.github.io/JavaScript30/Challenge-02%20JS%20and%20CSS%20Clock/
 [css-variables]: https://heinlinaung.github.io/JavaScript30/Challenge-03%20-%20CSS%20Variables
 [array-cardio-day-1]: https://heinlinaung.github.io/JavaScript30/Challenge-04%20-%20Array%20Cardio%20Day%201
-[flex-panel-gallery]: https://heinlinaung.github.io/JavaScript30/Challenge-05%20-%20flex%20panel%20gallery/
+[flex-panel-gallery]: https://heinlinaung.github.io/JavaScript30/Challenge-05%20-%20Flex%20Panel%20Gallery/
